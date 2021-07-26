@@ -1,0 +1,61 @@
+
+
+.header {
+    &-search {
+        padding-right: 30px;
+    }
+}
+
+
+
+.partners {
+
+    &-features {
+        width: 95%;
+
+        &_item {
+
+            padding: 30px 5px;
+
+            &-img {
+                margin-right: 10px;
+            }
+
+
+            &-title {
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+.header {
+
+    &-pagination {
+
+        &_wrapper {
+            width: 100%;
+        }
+
+        &_item {
+            font-size: 12px;
+        }
+    }
+}
+
+.objects {
+
+    &-item {
+        width: 65%;
+
+        &_title {
+            margin: 10px 0;
+            font-size: 24px;
+            line-height: 40px;
+        }
+
+        &_text {
+            font-size: 12px;
+        }
+    }
+}

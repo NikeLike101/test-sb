@@ -1,0 +1,64 @@
+.fm {
+    display: flex;
+
+    &-row {
+        flex-direction: row;
+    }
+}
+
+.fm-col {
+    flex-direction: column;
+}
+
+
+.header {
+
+    &-pagination {
+
+        &_wrapper {
+            width: 100%;
+        }
+
+        &_item {
+            font-size: 55%;
+        }
+    }
+}
+
+.partners {
+
+    &-features {
+        width: 100%;
+        
+
+        &_item {
+
+            &-img {
+                width: 6%;
+            }
+          
+            &-title {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+
+.objects {
+    height: 300px;
+
+    &-item {
+        width: 80%;
+
+        &_title {
+            margin: 10px 0;
+            font-size: 24px;
+            line-height: 30px;
+        }
+
+        &_text {
+            font-size: 12px;
+        }
+    }
+}

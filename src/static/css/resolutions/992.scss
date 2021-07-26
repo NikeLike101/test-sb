@@ -1,0 +1,19 @@
+
+
+.objects {
+
+    &-item {
+
+        width: 50%;
+
+        &_text {
+            font-size: 16px;
+        }
+
+        &_title {
+            font-size: 48px;
+            margin: 30px 0;
+            line-height: 50px;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+.partners {
+
+    &-features {
+        width: 95%;
+
+        &_item {
+
+            padding: 30px 5px;
+
+            &-img {
+                margin-right: 10px;
+            }
+
+
+            &-title {
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+.header {
+
+    &-pagination {
+
+        &_wrapper {
+            width: 100%;
+        }
+
+        &_item {
+            font-size: 14px;
+        }
+    }
+}
